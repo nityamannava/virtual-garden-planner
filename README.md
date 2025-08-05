@@ -4,7 +4,7 @@ The **Virtual Garden Planner** is a dynamic, interactive web application that le
 
 ## 🚀 Live Demo
 
-> 🌐 [Click here to try the Virtual Garden Planner](https://github.com/nityamannava/virtual-garden-planner/new/main?filename=README.md)
+> 🌐 [Click here to try the Virtual Garden Planner](https://github.com/nityamannava/virtual-garden-planner.git)
 
 ## ✨ Features
 
