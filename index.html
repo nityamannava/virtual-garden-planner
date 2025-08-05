@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Garden Planner 🌿</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="rainEffect"></div>
+
+  <header>
+    <h1>🌱 Virtual Garden Planner 🌼</h1>
+    <p>"Build Your Dream Garden,Digitally"</p>
+  </header>
+
+  <div class="controls">
+    <select id="plant-select">
+      <option value="🥕">Carrot</option>
+      <option value="🌷">Flower</option>
+      <option value="🍅">Tomato</option>
+      <option value="🌳">Tree</option>
+    </select>
+    <button id="water-mode">Water 💧</button>
+    <button id="fertilizer-mode">Fertilize 🌿</button>
+    <button id="harvest-mode">Harvest 🧺</button>
+    <button id="theme-toggle">Toggle Dark Mode 🌙</button>
+    <select id="weather-select">
+      <option value="sunny">Sunny ☀️</option>
+      <option value="cloudy">Cloudy ☁️</option>
+      <option value="rainy">Rainy 🌧️</option>
+    </select>
+  </div>
+
+  <div id="weather-message" class="quote">It's a sunny day ☀️</div>
+
+  <div class="garden" id="garden"></div>
+
+  <div class="stats">
+    <h3>🌸 Garden Stats</h3>
+    <p id="plant-count">Total Plants: 0</p>
+    <p id="harvest-ready">Ready to Harvest: 0</p>
+  </div>
+
+  <div class="chatbox">
+    <h3>🤖 Garden AI Assistant</h3>
+    <div id="chat-log"></div>
+    <input type="text" id="chat-input" placeholder="Ask for plant care tips..." />
+    <button id="send-btn">Send</button>
+  </div>
+  <div id="rainEffect"></div>
+
+  <div class="quote">“Gardening adds years to your life and life to your years.”</div>
+
+  <footer>
+    &copy; 2025 Virtual Garden Planner. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
